@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Entensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LubbricantCoreApp.Infrastructure\LubbricantCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\LubbricantCoreApp.Utilities\LubbricantCoreApp.Utilities.csproj" />
+    <ProjectReference Include="..\LubricantCoreApp.Data\LubricantCoreApp.Data.csproj" />
+  </ItemGroup>
+
+</Project>
